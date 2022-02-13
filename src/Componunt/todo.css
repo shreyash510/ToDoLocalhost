@@ -1,0 +1,46 @@
+.container{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    /* align-self: center; */
+    align-items: center; 
+    border-radius: 20px;   
+}
+
+.todo{
+    width: 20em;
+    height: fit-content;
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: space-around;
+}
+.input input{
+    width: 80%;
+}
+
+.showList li{
+    font-size: 20px;
+    font-weight: 600;
+}
+button{
+    font-weight:500;
+}
+.listItems{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.showList li{
+    list-style-type: none;
+}
+
+.showList ul{
+    display: flex;
+    justify-content: space-around;
+}
